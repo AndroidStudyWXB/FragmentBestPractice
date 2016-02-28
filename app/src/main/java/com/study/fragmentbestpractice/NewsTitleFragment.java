@@ -26,7 +26,7 @@ public class NewsTitleFragment extends Fragment implements AdapterView.OnItemCli
     public void onAttach(Activity activity) {
         super.onAttach(activity);
         newsList = getNews();
-        adapter = new NewsAdapter(activity, R.layout.news_content, newsList);
+        adapter = new NewsAdapter(activity, R.layout.news_item, newsList);
     }
 
     @Override
